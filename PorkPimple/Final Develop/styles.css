@@ -1,0 +1,102 @@
+body {
+    color: gray;
+    /* background-image: url("GryffindorDarkedge.jpg"); */
+    background-color: black;
+    font-size: 2em;
+    margin-left: 10%;
+    margin-right:10%;
+    font-family: 'EB Garamond', serif;
+    
+    
+    
+    
+  }
+  
+  #images {
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+    position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-bottom: .6em;
+  }
+  input {
+    width: 100%;
+    height: 20px;
+    text-align:center;
+    font-size: 1em;
+    margin-top:15px;
+  }
+  #buttonBox {
+    text-align:center;
+    opacity: 1;
+    /* overflow: auto;  */
+    -webkit-transition: opacity 3s ease-in-out;
+-moz-transition: opacity 3s ease-in-out;
+-ms-transition: opacity 3s ease-in-out;
+-o-transition: opacity 3s ease-in-out;
+transition: opacity 3s ease-in-out;
+  }
+  button{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    /* height: 22px; */
+    font-size: 14px;
+    opacity: 1;
+    /* overflow: auto;  */
+    -webkit-transition: opacity .3s ease-in-out;
+-moz-transition: opacity .3s ease-in-out;
+-ms-transition: opacity .3s ease-in-out;
+-o-transition: opacity .3s ease-in-out;
+transition: opacity .3s ease-in-out;
+box-shadow: 0px 0px 9px 6px #dceb58;
+background:linear-gradient(to bottom, #000000 5%, #7f0909 100%);
+background-color:#000000;
+border-radius:41px;
+border:2px solid #000000;
+display:inline-block;
+cursor:pointer;
+color:#fff200;
+font-family:Georgia;
+font-size:17px;
+font-style:italic;
+padding:11px 49px;
+text-decoration:none;
+text-shadow:0px 0px 3px #fafafa;
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 580px) {
+      body {
+        margin-right: 10%;
+      margin-left: 10%;
+      
+    }
+  }
+
+ 
+#text {
+    opacity: 1;
+    overflow: auto; 
+    -webkit-transition: opacity .3s ease-in-out;
+-moz-transition: opacity .3s ease-in-out;
+-ms-transition: opacity .3s ease-in-out;
+-o-transition: opacity .3s ease-in-out;
+transition: opacity .3s ease-in-out;
+  }
+
+  #images {
+    overflow: auto; 
+    -webkit-transition: opacity .3s ease-in-out;
+-moz-transition: opacity .3s ease-in-out;
+-ms-transition: opacity .3s ease-in-out;
+-o-transition: opacity .3s ease-in-out;
+transition: opacity .3s ease-in-out;
+  }
+  
+  
